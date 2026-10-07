@@ -10,6 +10,8 @@ Express.js and MySQL.
 
 ## ✨ Features
 
+
+
 - 🔐 Authentication
 - 👤 User & Admin roles
 - 🛒 Shopping cart
@@ -26,8 +28,16 @@ Express.js and MySQL.
 - Stripe
 - Socket.IO
 - JWT
+- Cookie
+- Nodemail
 
 ## 🚀 How to Run
+
+### Application
+
+```hash
+git clone <YOUR_GIT_URL>
+```
 
 ### Backend
 
@@ -35,3 +45,13 @@ Express.js and MySQL.
 cd backend
 npm install
 npm run dev
+```
+### Frontend
+
+```bash
+cd fronend
+npm install
+npm run dev
+```
+
+
