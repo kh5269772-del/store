@@ -6,7 +6,7 @@ Express.js and MySQL.
 
 ## 📸 Screenshots
 
-![Home](./screenshots/home.png)
+![Home](https://github.com/kh5269772-del/store/blob/dd9dd5865bc656c35d7fe3636a799ebdcb5edfcb/WhatsApp%20Image%202026-10-03%20at%204.57.58%20PM.jpeg)
 
 ## ✨ Features
 
