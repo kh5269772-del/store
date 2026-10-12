@@ -35,7 +35,7 @@ Express.js and MySQL.
 
 ### Application
 
-```bash
+```hash
 git clone <YOUR_GIT_URL>
 ```
 
