@@ -59,14 +59,18 @@ function Chart_Product(props) {
     const fitNotOrder = orders.filter((e) => {
       return e.productId != product.id
     })
-    if (fitNotOrder.length!=0 && fitOrder.length!=0) {
+    if (fitNotOrder.length != 0 && fitOrder.length != 0) {
 
-      setdata([{name:'Current product',value:fitOrder.length},
-        {name:'All Products',value:fitNotOrder.length}]
+      setdata([{ name: 'Current product', value: fitOrder.length },
+      { name: 'All Products', value: fitNotOrder.length }]
       )
 
+    } else {
+      setdata([{ name: "Not yet ordered", value: 1 },
+      { name: 'All Products', value: fitNotOrder.length }
+      ])
     }
-    console.log({ 
+    console.log({
       orders_f: fitOrder.length,
       order_no_f: fitNotOrder.length
 

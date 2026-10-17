@@ -40,7 +40,7 @@ function Add_Category() {
     return (
         <>
             <div className="Add_Category">
-                <h2>add categore</h2>
+                <h2>add category</h2>
 
                 <div className="add">
                     <input type="text" placeholder="add category" onChange={(e) => setname(e.target.value)} value={name} />
@@ -51,7 +51,7 @@ function Add_Category() {
 
 
                 <div className="show_category">
-                    <h2>categores</h2>
+                    <h2>categorys</h2>
                     <div className="group_category" >
                         {categorys.length > 0 ?
                             <>
